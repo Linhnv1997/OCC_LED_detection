@@ -1,0 +1,4 @@
+python train.py --img 640 --batch 32 --epochs 5 --data coco128.yaml --weights yolov5s.pt --device 0
+
+python detect.py --source '0' --weights yolov5s.pt --conf 0.25 --device 0
+pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html

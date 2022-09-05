@@ -1,0 +1,7 @@
+train: ../LED_datasetnew/images/train # train images (relative to 'path') 128 images
+val: ../LED_datasetnew/images/val # val images (relative to 'path') 128 images
+
+
+# Classes
+nc: 1  # number of classes
+names: [ 'LED']  # class names
